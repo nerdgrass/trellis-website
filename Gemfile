@@ -43,4 +43,13 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+# Because ERB is uggo
 gem "haml-rails"
+
+# Because Compass is cssex
+gem 'compass', '>= 0.12.2'
+gem 'compass-rails', '>= 1.0.3'
+
+# Because grids should be modular
+gem "susy"
