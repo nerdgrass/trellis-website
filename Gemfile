@@ -51,5 +51,5 @@ gem "haml-rails"
 gem 'compass', '>= 0.12.2'
 gem 'compass-rails', '>= 1.0.3'
 
-# Because grids should be modular
-gem "susy"
+# Foundation because damnit
+gem 'zurb-foundation', '~> 4.0.0'
