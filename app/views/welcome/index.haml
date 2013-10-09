@@ -1,26 +1,136 @@
 =render "home_header"
-.row
-  .small-12.columns
-    %h1 We Help You Grow
-  .small-12.large-7.columns
-    %h2 Grow your business like never before
-    %p Trellis works with your business's goals to help you leverage the web to grow your business beyond your wildest dreams. Utilizing the latest techniques in content-driven SEO and digital marketing, we're not just a design agency, we're a partner for your business's success.
-    %button Plant the Seed
-  .small-12.large-5.columns
-    =image_tag "we-help-you-grow.png"
-.row
-  .small-12.large-6.columns
-    .small-4.columns
-      =image_tag "trellis-identity-mark.png"
-    .small-8.columns
-      %h4 Content Strategy
-      %h4 Multi-platform SEO
-      %h4 On-page consultation
-  .small-12.large-6.columns
-    .small-4.columns
-      =image_tag "trellis-identity-mark.png"
-    .small-8.columns
-      %h4 Social Media Marketing
-      %h4 Content Consultation
-      %h4 Campaign Management
+.slide.grow
+  .row
+    .small-12.columns
+      %h1 We Help You Grow
+    .small-12.large-7.columns
+      %h2 Grow your business like never before
+      %p Trellis works with your business's goals to help you leverage the web to grow your business beyond your wildest dreams. Utilizing the latest techniques in content-driven SEO and digital marketing, we're not just a design agency, we're a partner for your business's success.
+      %button Plant the Seed
+    .small-12.large-5.columns
+      =image_tag "we-help-you-grow.png"
+  .row
+    .small-12.large-6.columns
+      .small-4.columns
+        =image_tag "trellis-identity-mark.png"
+      .small-8.columns
+        %h4 Content Strategy
+        %h4 Multi-platform SEO
+        %h4 On-page consultation
+    .small-12.large-6.columns
+      .small-4.columns
+        =image_tag "trellis-identity-mark.png"
+      .small-8.columns
+        %h4 Social Media Marketing
+        %h4 Content Consultation
+        %h4 Campaign Management
+.slide.tech
+  .row
+    .small-12.columns
+      %h1 With New Technology
+    .small-12.large-5.columns
+      =image_tag "with-new-technology.png"
+    .small-12.large-7.columns
+      %h2 Use the latest web technology to power your empire
+      %p Staying up with the latest web technology and standards is a tiring proposition - let us sift through the jargon and find the best technology to match your business's needs. We use the latest web design technologies to make your web presence artistic and functional.
+      %button.success Get it Built
+  .row
+    .small-12.large-6.columns
+      .small-4.columns
+        =image_tag "trellis-identity-mark.png"
+      .small-8.columns
+        %h4 HTML5 
+        %h4 CSS3
+        %h4 Ruby on Rails
+    .small-12.large-6.columns
+      .small-4.columns
+        =image_tag "trellis-identity-mark.png"
+      .small-8.columns
+        %h4 Magento
+        %h4 Shopify
+        %h4 Product Migration
+.slide.meaningful
+  .row
+    .small-12.columns
+      %h1 In Meaningful Ways
+    .small-12.large-7.columns
+      %h2 Statistics aren't everything.
+      %p We could tell you how we've built 10,000 SKU sites or the average ROI on our SEO campaigns, but sometimes you need to hear it from the horse's mouth. Check out our work below to see what clients have to say about working with Trellis.
+    .small-12.large-5.columns
+      =image_tag "in-meaningful-ways.png"
+  .row
+    .small-12.large-12.columns
+      %ul#og-grid.og-grid
+        %li
+          %a{"data-description" => "Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.", "data-largesrc" => "http://placehold.it/400x400", "data-title" => "Client Name", :href => "http://www.clientsite.com"}
+            %img{:alt => "Thumbnail", :src => "http://placehold.it/200x200"}/
+        %li
+          %a{"data-description" => "Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.", "data-largesrc" => "http://placehold.it/400x400", "data-title" => "Client Name", :href => "http://www.clientsite.com"}
+            %img{:alt => "Thumbnail", :src => "http://placehold.it/200x200"}/
+        %li
+          %a{"data-description" => "Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.", "data-largesrc" => "http://placehold.it/400x400", "data-title" => "Client Name", :href => "http://www.clientsite.com"}
+            %img{:alt => "Thumbnail", :src => "http://placehold.it/200x200"}/
+        %li
+          %a{"data-description" => "Swiss chard pumpkin bunya nuts maize plantain aubergine napa cabbage soko coriander sweet pepper water spinach winter purslane shallot tigernut lentil beetroot.", "data-largesrc" => "http://placehold.it/400x400", "data-title" => "Client Name", :href => "http://www.clientsite.com"}
+            %img{:alt => "Thumbnail", :src => "http://placehold.it/200x200"}/
+.slide.contact
+  .row
+    .small-12.columns
+      %h1 What are you waiting for?
+      %h2 Contact Us
+    .large-5.columns
+      %p Interested in taking your business to the next level? Need counsel on your web presence? Feel like talking shop? We'd love to talk to you! Simply fill out the form to drop us a line, or contact us through the below social media sites.
+      .row
+        .small-4.columns
+          %img{:alt => "Thumbnail", :src => "http://placehold.it/100x100"}
+        .small-4.columns
+          %img{:alt => "Thumbnail", :src => "http://placehold.it/100x100"}
+        .small-4.columns
+          %img{:alt => "Thumbnail", :src => "http://placehold.it/100x100"}
+    .large-7.columns
+      %form.custom
+        .row
+          .small-11.small-centered.large-uncentered.large-12.columns
+            / .row
+            /   .small-3.columns
+            /     %label.right.inline{:for => "right-label"} Full Name
+            /   .small-9.columns
+            %input#right-label{:placeholder => "Your Full Name", :type => "text"}
+          .small-11.small-centered.large-uncentered.large-12.columns
+            / .row
+            /   .small-3.columns
+            /     %label.right.inline{:for => "right-label"} Email
+            /   .small-9.columns
+            %input#right-label{:placeholder => "Your Email Address", :type => "email"}
+          .small-11.small-centered.large-uncentered.large-12.columns
+            / .row
+            /   .small-3.columns
+            /     %label.right.inline{:for => "right-label"} Company
+            /   .small-9.columns
+            %input#right-label{:placeholder => "Company Name", :type => "text"}
+          .small-11.small-centered.large-uncentered.large-12.columns
+            .row
+              .small-2.columns
+                %label.right.inline{:for => "right-label"} Budget
+              .small-10.columns
+                %label{:for => "radio1"}
+                  %input#radio1{:name => "radio1", :style => "display:none;", :type => "radio"}
+                    %span.custom.radio
+                    $5-$10,000
+                %label{:for => "radio1"}
+                  %input#radio1{:name => "radio1", :style => "display:none;", :type => "radio"}
+                    %span.custom.radio
+                    $10-$20,000
+                %label{:for => "radio1"}
+                  %input#radio1{:name => "radio1", :style => "display:none;", :type => "radio"}
+                    %span.custom.radio
+                    $20-$50,000
+          .small-11.small-centered.large-uncentered.large-12.columns
+            / .row
+            /   .small-3.columns
+            /     %label.right.inline Project Description
+            /   .small-9.columns
+            %textarea{:placeholder => "Project description or message"}
+            %button.expand Submit
+
 =render "footer"
