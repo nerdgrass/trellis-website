@@ -15,10 +15,10 @@
 // $em-base: 16px;
 
 // We use these to control various global styles
-// $body-bg: #fff;
-// $body-font-color: #222;
+$body-bg:$light-green;
+$body-font-color: $darker-green;
 // $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $body-font-weight: normal;
+$body-font-weight: light;
 // $body-font-style: normal;
 
 // We use this to control font-smoothing
@@ -28,10 +28,10 @@
 // $text-direction: ltr;
 
 // We use these as default colors throughout
-// $primary-color: #2ba6cb;
-// $secondary-color: #e9e9e9;
+$primary-color: $green;
+$secondary-color: $light-beige;
 // $alert-color: #c60f13;
-// $success-color: #5da423;
+$success-color: $light-purple;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -86,9 +86,9 @@
 
 // We use these to control header font styles
 // $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-// $header-font-weight: bold;
+$header-font-weight: normal;
 // $header-font-style: normal;
-// $header-font-color: #222;
+$header-font-color: $darker-green;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
 // $header-bottom-margin: .5em;
@@ -136,7 +136,7 @@
 // We use these to style the <hr> element
 // $hr-border-width: 1px;
 // $hr-border-style: solid;
-// $hr-border-color: #ddd;
+$hr-border-color: $darkest-green;
 // $hr-margin: emCalc(20px);
 
 // We use these to style lists

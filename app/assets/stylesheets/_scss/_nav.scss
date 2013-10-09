@@ -1,0 +1,21 @@
+.header-home {
+  background: image-url('bg-diamond-beige.jpg');
+  background-color: #777;
+  padding-top:1em;
+  // height: 4em;
+}
+.header-home p,.header-home h1 { //THIS IS FOR TESTING
+  text-align: center;
+}
+.header-inside {
+  background: image-url('bg-diamond-beige.jpg');
+  background-color: #777;
+  padding-top:1em;
+  height: 4em;
+}
+.home-nav {
+  ul {
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+}
