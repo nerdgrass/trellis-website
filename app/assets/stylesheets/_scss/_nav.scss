@@ -1,8 +1,7 @@
 .header-home {
   background: image-url('bg-diamond-beige.jpg');
   background-color: #777;
-  padding-top:1em;
-  // height: 4em;
+  padding:1em;
 }
 .header-home p,.header-home h1 { //THIS IS FOR TESTING
   text-align: center;
@@ -12,6 +11,9 @@
   background-color: #777;
   padding-top:1em;
   height: 4em;
+}
+.logo {
+  margin-top: 2em;
 }
 .home-nav {
   ul {

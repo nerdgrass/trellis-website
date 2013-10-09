@@ -4,6 +4,8 @@
     %title Trellis Website
     = csrf_meta_tags
     = stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true
+    / Super heavy Google Webfonts. DO NOT LEAVE IN FOR PRODUCTION
+    %link{:href => "http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,200italic,300italic,400italic,600italic,700italic,900italic", :rel => "stylesheet", :type => "text/css"}
     = javascript_include_tag "modernizr.custom"
   %body
     = yield

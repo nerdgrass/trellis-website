@@ -27,17 +27,18 @@
         font-size:4em;
     }
 }
-
+//Global
 .wrapper {
 	background: $light-green;
 }
+//Homepage
 .slide {
 	padding: 3em 0;
 }
 .grow {}
 .tech {
 	background: $purple;
-	h1, h2,h5, p {
+	h1, h2,h3,h5, li, p {
 		color:$darker-purple;
 	}
 }
@@ -53,7 +54,14 @@
 		color:$light-green;
 	}
 }
-
+h3.services-title {
+	font-family:'homestead-regular','Source Sans Pro', sans-serif;
+	font-size: emCalc(24px);
+	margin-bottom: 0;
+}
+.services-list {
+	list-style-position: inside;
+}
 
 // Clients SCSS
 .og-grid {

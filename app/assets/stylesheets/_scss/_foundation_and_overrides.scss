@@ -17,8 +17,8 @@
 // We use these to control various global styles
 $body-bg:$light-green;
 $body-font-color: $darker-green;
-// $body-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$body-font-weight: light;
+$body-font-family: "Source Sans Pro", "Helvetica", Helvetica, Arial, sans-serif;
+$body-font-weight: normal;
 // $body-font-style: normal;
 
 // We use this to control font-smoothing
@@ -85,13 +85,13 @@ $success-color: $dark-purple;
 //
 
 // We use these to control header font styles
-// $header-font-family: "Helvetica Neue", "Helvetica", Helvetica, Arial, sans-serif;
-$header-font-weight: normal;
+$header-font-family: "Source Sans Pro", "Helvetica", Helvetica, Arial, sans-serif;
+$header-font-weight: 500;
 // $header-font-style: normal;
 $header-font-color: $darker-green;
 // $header-line-height: 1.4;
 // $header-top-margin: .2em;
-// $header-bottom-margin: .5em;
+$header-bottom-margin:.2em;
 // $header-text-rendering: optimizeLegibility;
 
 // We use these to control header font sizes
@@ -115,8 +115,8 @@ $header-font-color: $darker-green;
 
 // We use these to style paragraphs
 // $paragraph-font-family: inherit;
-// $paragraph-font-weight: normal;
-// $paragraph-font-size: 1em;
+$paragraph-font-weight: 300;
+$paragraph-font-size: 1.3em;
 // $paragraph-line-height: 1.6;
 // $paragraph-margin-bottom: emCalc(20px);
 // $paragraph-aside-font-size: emCalc(14px);
@@ -189,14 +189,14 @@ $hr-border-color: $darkest-green;
 
 // We use these to style the labels in different ways
 // $label-pointer: pointer;
-// $label-font-size: emCalc(14px);
+$label-font-size: emCalc(16px);
 // $label-font-weight: 500;
-// $label-font-color: lighten(#000, 30%);
+$label-font-color: $light-green;
 // $label-bottom-margin: emCalc(3px);
 // $input-font-family: inherit;
-// $input-font-color: rgba(0,0,0,0.75);
+$input-font-color: rgba(0,0,0,0.85);
 // $input-font-size: emCalc(14px);
-// $input-bg-color: #fff;
+$input-bg-color:$lightest-green;
 // $input-focus-bg-color: darken(#fff, 2%);
 // $input-border-color: darken(#fff, 20%);
 // $input-focus-border-color: darken(#fff, 40%);
@@ -252,7 +252,7 @@ $hr-border-color: $darkest-green;
 // $button-font-tny: emCalc(11px);
 // $button-font-sml: emCalc(13px);
 // $button-font-lrg: emCalc(20px);
-// $button-font-weight: bold;
+$button-font-weight: 200;
 // $button-font-align: center;
 
 // We use these to control various hover effects.
@@ -438,13 +438,13 @@ $button-border-width: 0px;
 //
 
 // We use these to control the basic form styles input styles
-// $custom-form-border-color: #ccc;
-// $custom-form-bg: #fff;
+$custom-form-border-color: $dark-green;
+$custom-form-bg: $lightest-green;
 // $custom-form-bg-disabled: #ddd;
-// $custom-form-check-color: #222;
+$custom-form-check-color: $dark-green;
 
 // We use these to style the custom select form element.
-// $custom-select-bg: #fff;
+$custom-select-bg:$lightest-green;
 // $custom-select-fade-to-color: #f3f3f3;
 // $custom-select-border-color: #ddd;
 // $custom-select-triangle-color: #aaa;
@@ -1010,3 +1010,9 @@ $button-border-width: 0px;
 
 
 @import 'foundation';
+
+// Custom Overrides
+button, .button {
+	text-transform: uppercase;
+	letter-spacing: .2em;
+}
