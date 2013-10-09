@@ -1,8 +1,38 @@
+//Web Fonts (Note: Source Sans Pro is used via Google Webfonts as primary font)
+@font-face {
+    font-family: 'homestead-regular';
+    src: url('/assets/fonts/homestead/homestead-regular-webfont.eot');
+    src: url('/assets/fonts/homestead/homestead-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/homestead/homestead-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/homestead/homestead-regular-webfont.ttf') format('truetype'),
+         url('/assets/fonts/homestead/homestead-regular-webfont.svg#homestead_regularregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'homestead-display';
+    src: url('/assets/fonts/homestead/homestead-display-webfont.eot');
+    src: url('/assets/fonts/homestead/homestead-display-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/homestead/homestead-display-webfont.woff') format('woff'),
+         url('/assets/fonts/homestead/homestead-display-webfont.ttf') format('truetype'),
+         url('/assets/fonts/homestead/homestead-display-webfont.svg#homestead_displaydisplay') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.header-display {
+    font-family:'homestead-display','Source Sans Pro', sans-serif;
+}
+@media only screen and (min-width: 768px) {
+    .header-display {
+        font-size:4em;
+    }
+}
+
 .wrapper {
 	background: $light-green;
 }
 .slide {
-	padding: 2em 0;
+	padding: 3em 0;
 }
 .grow {}
 .tech {
@@ -265,4 +295,11 @@
     float: none;
     width: 100%;
   }
+}
+
+//Contact Form
+.radio-inline {
+	display: inline-block;
+	padding-right: 1em;
+	padding-top: .4em;
 }
