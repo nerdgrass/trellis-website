@@ -31,7 +31,7 @@ $body-font-weight: light;
 $primary-color: $green;
 $secondary-color: $light-beige;
 // $alert-color: #c60f13;
-$success-color: $light-purple;
+$success-color: $dark-purple;
 
 // We use these to make sure border radius matches unless we want it different.
 // $global-radius: 3px;
@@ -259,7 +259,7 @@ $hr-border-color: $darkest-green;
 // $button-function-factor: 10%;
 
 // We use these to control button border styles.
-// $button-border-width: 1px;
+$button-border-width: 0px;
 // $button-border-style: solid;
 // $button-border-color: darken($primary-color, $button-function-factor);
 
