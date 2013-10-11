@@ -21,9 +21,10 @@
 }
 .header-display {
     font-family:'homestead-display','Source Sans Pro', sans-serif;
+    margin-top: 0;
 }
 @media only screen and (min-width: 768px) {
-    .header-display {
+    h1.header-display {
         font-size:4em;
     }
 }

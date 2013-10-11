@@ -1,0 +1,21 @@
+ul.about-social {
+  list-style-type: none;
+}
+a.about-social {
+  text-align: center;
+  width: 25px;height: 25px;
+  display: inline-block;
+  margin-right: .5em;
+}
+a.about-social.twitter {
+  background: image-url('twitter.png');
+}
+a.about-social.linkedin {
+  background: image-url('linkedin.png');
+}
+a.about-social.github {
+  background: image-url('github.png');
+}
+a.about-social.dribbble {
+  background: image-url('dribbble.png');
+}
