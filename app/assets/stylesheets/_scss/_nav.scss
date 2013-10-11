@@ -23,5 +23,15 @@ ul.nav {
   ul {
     margin: 0 auto;
     padding-bottom: 2em;
+    li {padding: .1em .4em;}
+    li:hover {
+      background:$green;
+      -webkit-border-radius: 4px;
+      -moz-border-radius: 4px;
+      border-radius: 4px;
+      a {
+        color: $lighter-beige;
+      }
+    }
   }
 }

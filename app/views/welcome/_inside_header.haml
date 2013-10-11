@@ -4,5 +4,15 @@
       %a.nav-inside-logo{:alt => "Trellis", :href => "/"}
         =image_tag "trellis-home-splash-logo.png"
     .small-7.large-9.columns
-      =render "nav"
+      %ul.inline-list.nav
+        %li
+          = link_to "About", '/about'
+        %li
+          = link_to "Services", '/'
+        %li
+          = link_to "Clients", '/'
+        %li
+          %a{:onclick => "$('.contact').animatescroll();"} Contact
+        / %li
+        /   = link_to "Blog", '#'
 .wrapper/
