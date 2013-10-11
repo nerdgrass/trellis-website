@@ -1,3 +1,23 @@
 footer {
 	background: $dark-green;
+	padding: 2em 0;
 }
+.footer-menu {
+	background: $green;
+}
+footer ul.vcard {
+	font-size: emCalc(14px);
+	border:none;
+	padding: 1em;
+	width: 100%;
+}
+ul.nav-footer {
+	list-style-type: none;
+	padding:0 1em;
+	a {
+		color:$darkest-green;
+	}
+}
+ul.nav-footer a:hover {
+		color:$darkest-green;
+	}
