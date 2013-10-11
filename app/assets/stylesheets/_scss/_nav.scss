@@ -3,9 +3,38 @@
   background-color: #F2F1EF;
   padding:1em;
 }
-.header-home p,.header-home h1 { //THIS IS FOR TESTING
+//Splash Image
+.splash {
   text-align: center;
+  margin:0;
 }
+.splash.top {
+  text-transform: uppercase;
+  font-weight: 300;
+}
+.splash.mid {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .1em;
+  }
+.splash.bottom {
+  font-style: italic;
+  font-weight: 300;
+}
+@media only screen and (min-width: 768px) {
+  .splash.top {
+    margin-top: 1.5em;
+    line-height: emCalc(14px);
+    font-size: emCalc(28px);
+  }
+  .splash.mid {
+    font-size: emCalc(60px);
+  }
+  .splash.bottom {
+    font-size: emCalc(28px);
+  }
+}
+//Inside Pages Header
 .header-inside {
   background: image-url('bg-diamond-beige.jpg');
   background-color: #F2F1EF;
